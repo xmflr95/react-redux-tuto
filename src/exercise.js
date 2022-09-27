@@ -1,8 +1,4 @@
-# Redux 사용
-
-```js
 import { createStore } from "redux";
-// createStore는 현재는 deprecated 되었지만 이전에 사용되던 개념을 학습
 
 // createStore는 스토어를 만들어주는 함수
 // 리액트 프로젝트에서는 단 하나의 스토어 생성
@@ -97,4 +93,3 @@ store.dispatch(increase());
 store.dispatch(decrease());
 store.dispatch(changeText('안녕하세요'));
 store.dispatch(addToList({id: 1, text: 'WOW'}));
-```
